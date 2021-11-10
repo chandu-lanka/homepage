@@ -1,11 +1,35 @@
-import { Heading, Box, Image } from "@chakra-ui/react";
+import {
+  Heading,
+  Box,
+  Image,
+  Link,
+  Divider,
+  Container,
+  SimpleGrid,
+  ListItem,
+  Button,
+  List,
+  Icon,
+} from "@chakra-ui/react";
+import NextLink from "next/link";
 import { BioSection, BioYear } from "../components/bio";
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
+import Head from "next/head";
+import GridItem from "../components/grid-item";
+import {
+  IoLogoTwitter,
+  IoLogoGithub,
+  IoLogoDiscord,
+  IoLogoYoutube,
+} from "react-icons/io5";
 
 const BioPage = () => {
   return (
     <Section>
+      <Head>
+        <title>Biography - Scoop</title>
+      </Head>
       <Section delay={0.2}>
         <Box
           flexShrink={0}
@@ -50,7 +74,78 @@ const BioPage = () => {
         </BioSection>
       </Section>
 
+      <Divider my={6} />
+
       <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Socials
+        </Heading>
+        <List>
+          <ListItem>
+            <Link href="https://youtube.com/scoopydevy" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                leftIcon={<Icon as={IoLogoYoutube} />}
+              >
+                My Main Youtube
+              </Button>
+            </Link>
+          </ListItem>
+
+          <ListItem>
+            <Link href="https://youtube.com/scupthedev" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                leftIcon={<Icon as={IoLogoYoutube} />}
+              >
+                My Tutorials Channel
+              </Button>
+            </Link>
+          </ListItem>
+
+          <ListItem>
+            <Link href="https://github.com/scoopydevy" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                leftIcon={<Icon as={IoLogoGithub} />}
+              >
+                @scoopdevy
+              </Button>
+            </Link>
+          </ListItem>
+
+          <ListItem>
+            <Link href="https://twitter.com/scoopydevy" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                leftIcon={<Icon as={IoLogoTwitter} />}
+              >
+                @scoopdevy
+              </Button>
+            </Link>
+          </ListItem>
+
+          <ListItem>
+            <Link href="https://discord.gg/d3YPb5Er59" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                leftIcon={<Icon as={IoLogoDiscord} />}
+              >
+                My Awesome Discord Community
+              </Button>
+            </Link>
+          </ListItem>
+        </List>
+      </Section>
+
+      <Divider my={6} />
+
+      <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I Love
         </Heading>
