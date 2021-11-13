@@ -10,7 +10,7 @@ import {
 
 const NotFound = () => {
   return (
-    <Container>
+	<Container>
       <Heading as="h1">404! Page Not Found</Heading>
       <Text>The Page you're trying to access was not found.</Text>
       <Divider my={6} />
