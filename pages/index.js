@@ -55,8 +55,8 @@ const Page = () => {
           About
         </Heading>
         <Paragraph>
-          Hey there! i'm scoop(chandu lanka) a 14 year old (programmer / game
-          dev / pixel artist)! I work for{" "}
+          Hey there! i&apos;m scoop(chandu lanka) a 14 year old (programmer /
+          game dev / pixel artist)! I work for{" "}
           <NextLink href="">
             <Link href="https://beantoo.studio/" target="_blank">
               BeanToo Studios

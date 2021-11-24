@@ -10,7 +10,6 @@ import {
   Divider,
 } from "@chakra-ui/react";
 import { Avatar } from "@chakra-ui/react";
-import { TimeIcon } from "@chakra-ui/icons";
 
 export const GridItem = ({ children, href, title, thumbnail }) => (
   <Box w="100%" textAlign="center">

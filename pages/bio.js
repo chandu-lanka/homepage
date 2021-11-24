@@ -4,19 +4,15 @@ import {
   Image,
   Link,
   Divider,
-  Container,
-  SimpleGrid,
   ListItem,
   Button,
   List,
   Icon,
 } from "@chakra-ui/react";
-import NextLink from "next/link";
 import { BioSection, BioYear } from "../components/bio";
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import Head from "next/head";
-import GridItem from "../components/grid-item";
 import {
   IoLogoTwitter,
   IoLogoGithub,

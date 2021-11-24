@@ -15,6 +15,7 @@ const Author = ({ date }) => {
           borderRadius="full"
           width="70px"
           marginRight="10px"
+          alt="scoop"
         />
 
         <Box>

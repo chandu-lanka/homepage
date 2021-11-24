@@ -9,7 +9,6 @@ import BoxBox from "../public/images/projects/Box Box.png";
 import pyEngine from "../public/images/projects/pyEngine.png";
 import SpeedRunningCat from "../public/images/projects/SpeedRunningCat.png";
 import XLang from "../public/images/projects/X-Lang.png";
-import Layout from "../components/layouts/article";
 
 const Works = () => (
   <Container>

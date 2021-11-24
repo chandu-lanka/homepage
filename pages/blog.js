@@ -26,8 +26,8 @@ const Blog = () => {
               title="Created This Website"
               author="Scoop"
             >
-              So i've made so many websites in the past but this one is special
-              to me because...
+              So i&apos;ve made so many websites in the past but this one is
+              special to me because...
             </BlogGridItem>
           </GridItem>
         </SimpleGrid>

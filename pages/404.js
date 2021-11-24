@@ -12,7 +12,7 @@ const NotFound = () => {
   return (
 	<Container>
       <Heading as="h1">404! Page Not Found</Heading>
-      <Text>The Page you're trying to access was not found.</Text>
+      <Text>The Page you are trying to access was not found.</Text>
       <Divider my={6} />
 
       <Box my={6} align="center">
