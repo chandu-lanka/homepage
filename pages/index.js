@@ -8,6 +8,7 @@ import {
   Link,
   Button,
 } from "@chakra-ui/react";
+import { Divider } from "@chakra-ui/layout";
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import { ChevronRightIcon } from "@chakra-ui/icons";
@@ -18,19 +19,22 @@ const Page = () => {
       <Box
         borderRadius="lg"
         bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
-        p={3}
+        p={5}
         mb={6}
         align="center"
       >
-        Hello I&apos;m a game developer / programmer
+        Hello I&apos;m a rocket enthusiast / software dev / robotics engineer
       </Box>
 
       <Box display={{ md: "flex" }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Scoop
+            H.C. Lanka
           </Heading>
-          <p>Github User(Game Dev / Programmer / Pixel Artist)</p>
+          <p>
+            Inovation is my middle name. I enjoy building robots, rockets, and
+            software.
+          </p>
         </Box>
         <Box
           flexShrink={0}
@@ -45,44 +49,27 @@ const Page = () => {
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/scoop.jpg"
+            src="/images/chandulanka.png"
             alt="pfp"
           />
         </Box>
       </Box>
+
+      <Divider my={6} />
+
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
           About
         </Heading>
         <Paragraph>
-          Hey there! i&apos;m scoop(chandu lanka) a 14 year old (programmer /
-          game dev / pixel artist)! I work for{" "}
-          <NextLink href="">
-            <Link href="https://beantoo.studio/" target="_blank">
-              BeanToo Studios
-            </Link>
-          </NextLink>{" "}
-          which is an indie game dev studio which makes 2d pixel art games. I
-          work there as a full-time developer working on the companies games and
-          technologies such as Lucid Engine which is a custom game engine we are
-          developing in C++, Carrot Guns... An RPG rougelike shooter game about
-          bunnies... and alot more! I also have many projects of my own such as{" "}
-          <NextLink href="">
-            <Link
-              href="https://github.com/hallow-engine/hallow-engine"
-              target="_blank"
-            >
-              Hallow
-            </Link>
-          </NextLink>
-          , A Game Engine I will be using for my personal projects, Frocto my
-          very own video game I am developing in C++, and{" "}
-          <NextLink href="">
-            <Link href="https://github.com/scoopydevy/x-lang" target="_blank">
-              X-Lang
-            </Link>
-          </NextLink>
-          , a programming language which is being written in python
+          Hey there! i&apos;m H.C. Lanka a high school student (software /
+          robotics / rocketist)! I started programming in 8th grade due to the
+          bordom of quarantine and started by making video games in my spare
+          time after online classes. With that I started robotics by founding a
+          robotics team (me and my friends) at school. I also love rockets and
+          want to major in aerospace engineering in college. My dream job is at
+          NASA and I want to work on space crafts, reasearch, rovers, etc. I
+          love to make things!
         </Paragraph>
         <Box display="flex" alignItems="center" justifyContent="space-around">
           <Box align="center" my={4}>
