@@ -24,7 +24,7 @@ const Blog = () => {
             <BlogGridItem
               id="created-this-website"
               title="Created This Website"
-              author="Scoop"
+              author="Chandu Lanka"
             >
               So i&apos;ve made so many websites in the past but this one is
               special to me because...

@@ -63,7 +63,7 @@ const Page = () => {
         <Paragraph>
           Hey there! i&apos;m H.C. Lanka a high school student (software /
           robotics / rocketist)! I started programming in 8th grade due to the
-          bordom of quarantine and started by making video games in my spare
+          boredom of quarantine and started by making video games in my spare
           time after online classes. With that I started robotics by founding a
           robotics team (me and my friends) at school. I also love rockets and
           want to major in aerospace engineering in college. My dream job is at

@@ -58,7 +58,13 @@ export const BlogGridItem = ({ children, id, title, author }) => (
         <LinkOverlay href={`/works/${id}`}>
           <Box width="50%" height="30px" align="left">
             <Container height="100%" width="100%">
-              <Avatar size="2xs" my={1.5} mx={-3} marginRight={0.5} />{" "}
+              <Avatar
+                src="../public/images/chandulanka.png"
+                size="2xs"
+                my={1.5}
+                mx={-3}
+                marginRight={0.5}
+              />{" "}
               <span>{author}</span>
             </Container>
           </Box>
