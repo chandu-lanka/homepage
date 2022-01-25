@@ -13,18 +13,13 @@ import { BioSection, BioYear } from "../components/bio";
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import Head from "next/head";
-import {
-  IoLogoTwitter,
-  IoLogoGithub,
-  IoLogoDiscord,
-  IoLogoYoutube,
-} from "react-icons/io5";
+import { IoLogoTwitter, IoLogoGithub, IoLogoYoutube } from "react-icons/io5";
 
 const BioPage = () => {
   return (
     <Section>
       <Head>
-        <title>Biography - Scoop</title>
+        <title>Biography - Chandu Lanka</title>
       </Head>
       <Section delay={0.2}>
         <Box
@@ -40,7 +35,7 @@ const BioPage = () => {
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/scoop.jpg"
+            src="/images/chandulanka.png"
             alt="pfp"
           />
         </Box>
@@ -56,7 +51,7 @@ const BioPage = () => {
           Moved to the USA
         </BioSection>
         <BioSection>
-          <BioYear>2018</BioYear>
+          <BioYear>2019</BioYear>
           Came back to India
         </BioSection>
         <BioSection>
@@ -102,13 +97,13 @@ const BioPage = () => {
           </ListItem>
 
           <ListItem>
-            <Link href="https://github.com/scoopydevy" target="_blank">
+            <Link href="https://github.com/chandu-lanka" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="purple"
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
-                @scoopdevy
+                @chandu-lanka
               </Button>
             </Link>
           </ListItem>
@@ -124,18 +119,6 @@ const BioPage = () => {
               </Button>
             </Link>
           </ListItem>
-
-          <ListItem>
-            <Link href="https://discord.gg/d3YPb5Er59" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="purple"
-                leftIcon={<Icon as={IoLogoDiscord} />}
-              >
-                My Awesome Discord Community
-              </Button>
-            </Link>
-          </ListItem>
         </List>
       </Section>
 
@@ -146,8 +129,9 @@ const BioPage = () => {
           I Love
         </Heading>
         <Paragraph>
-          Art, Programming, Basketball, Learning, Video-Games, Editing-Videos,
-          Game-Development, Chess, Board-Games, Reading, Math, and Physics
+          Rockets, Robotics, Programming, Basketball, Learning, Video-Games,
+          Editing-Videos, Game-Development, Chess, Board-Games, Reading, Math,
+          and Physics.
         </Paragraph>
       </Section>
     </Section>

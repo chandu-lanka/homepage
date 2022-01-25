@@ -5,7 +5,6 @@ import {
   Heading,
   Image,
   useColorModeValue,
-  Link,
   Button,
 } from "@chakra-ui/react";
 import { Divider } from "@chakra-ui/layout";

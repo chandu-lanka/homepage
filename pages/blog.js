@@ -8,7 +8,7 @@ const Blog = () => {
   return (
     <Container>
       <Head>
-        <title>Blog Posts - Scoop</title>
+        <title>Blog Posts - Chandu Lanka</title>
       </Head>
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>

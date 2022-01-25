@@ -20,7 +20,7 @@ const Author = ({ date }) => {
 
         <Box>
           <Heading as="h3" mt={2}>
-            By Scoop
+            By Chandu Lanka
           </Heading>
           <Text>{date}</Text>
         </Box>

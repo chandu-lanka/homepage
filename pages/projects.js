@@ -3,43 +3,21 @@ import Head from "next/head";
 import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 
-import HallowEngineImg from "../public/images/projects/Hallow Engine.png";
 import BananaMan from "../public/images/projects/BananaMan.png";
 import BoxBox from "../public/images/projects/Box Box.png";
 import pyEngine from "../public/images/projects/pyEngine.png";
 import SpeedRunningCat from "../public/images/projects/SpeedRunningCat.png";
-import XLang from "../public/images/projects/X-Lang.png";
 
 const Works = () => (
   <Container>
     <Head>
-      <title>Projects - Scoop</title>
+      <title>Projects - Chandu Lanka</title>
     </Head>
     <Heading as="h3" fontSize={20} mb={4}>
       Projects
     </Heading>
 
     <SimpleGrid columns={[1, 1, 2]} gap={6}>
-      <Section>
-        <WorkGridItem
-          id="hallow-engine"
-          title="Hallow Engine"
-          thumbnail={HallowEngineImg}
-        >
-          An SDL-Based Cross-Platform Game Framework being developed in C++
-        </WorkGridItem>
-      </Section>
-
-      <Section delay={0.1}>
-        <WorkGridItem
-          id="x-lang"
-          thumbnail={XLang}
-          title="X - Programming Language"
-        >
-          A Beautiful Programming Language Which is A Hybrid Of C++ and Python
-        </WorkGridItem>
-      </Section>
-
       <Section delay={0.1}>
         <WorkGridItem id="box-box" title="Box Box" thumbnail={BoxBox}>
           A Two Player Puzzle Sokoban Type Game Made in 3 Days
